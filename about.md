@@ -20,7 +20,7 @@ permalink: /about/
 * 图像处理
 * 机器学习
 
-### Contact me
+### 联系方式
 
 * 大连理工大学数学科学学院 计算数学系
-* 邮件：[email@domain.com](mailto:xindongzhang@foxmail.com)
+* 邮件：[xindongzhang@foxmail.com](mailto:xindongzhang@foxmail.com)
