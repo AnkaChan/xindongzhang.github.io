@@ -22,3 +22,4 @@ permalink: /about/
 
 * 大连理工大学数学科学学院 计算数学系
 * 邮件：[xindongzhang@foxmail.com](mailto:xindongzhang@foxmail.com)
+* Github Page：[github.com/xindongzhang](https://github.com/xindongzhang)
