@@ -1,5 +1,6 @@
 ---
 layout: post
+category: 博客搭建
 title: 写博客一些常用命令
 ---
 

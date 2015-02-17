@@ -1,5 +1,6 @@
 ---
 layout: post
+category: 博客搭建
 title: 前端学习
 ---
 
