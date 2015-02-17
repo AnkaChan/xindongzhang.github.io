@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+     {% capture category %} {{ post.category }} {% endcapture %}
+     {% if forloop.first %}
+       <legend id = "category">{{ category }}</legend>
+     {% endif %} 
+  {% endfor %}
+</div>
