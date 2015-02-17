@@ -18,6 +18,15 @@ permalink: /about/
 * 图像处理
 * 机器学习
 
+### 科研技能
+* C/C++
+* MATLAB
+* OpenCV & OpenGL
+* CUDA
+* HTML/CSS/JS/PHP
+* Ruby & Python
+* VBA
+
 ### 联系方式
 
 * 大连理工大学数学科学学院 计算数学系
