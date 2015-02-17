@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-  <h1> 博客搭建 </h1>
+  <h2> 博客搭建 </h2>
   {% for post in site.posts %}
     {% if post.category == "博客搭建" %}
       <ul>
@@ -11,7 +11,7 @@ layout: default
       </ul>
     {% endif %}
   {% endfor %}
-  <h1> Ruby </h1>
+  <h2> Ruby </h2>
   {% for post in site.posts %}
     {% if post.category == "Ruby" %}
       <ul>
