@@ -3,10 +3,20 @@ layout: default
 ---
 
 <div class="posts">
+  <h1> 博客搭建 </h1>
   {% for post in site.posts %}
-     {% capture category %} {{ post.category }} {% endcapture %}
-     {% if forloop.first %}
-       <legend id = "category">{{ category }}</legend>
-     {% endif %} 
+    {% if post.category == "博客搭建" %}
+      <ul>
+        <li> <a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a> </li>
+      </ul>
+    {% endif %}
+  {% endfor %}
+  <h1> Ruby </h1>
+  {% for post in site.posts %}
+    {% if post.category == "Ruby" %}
+      <ul>
+        <li> <a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a> </li>
+      </ul>
+    {% endif %}
   {% endfor %}
 </div>
