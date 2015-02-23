@@ -12,14 +12,6 @@ layout: default
     {% endif %}
   {% endfor %}
 
-  <h2> Ruby </h2>
-  {% for post in site.posts %}
-    {% if post.category == "Ruby" %}
-      <ul>
-        <li> <a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a> </li>
-      </ul>
-    {% endif %}
-  {% endfor %}
 
   <h2> Unix </h2>
   {% for post in site.posts %}
