@@ -22,4 +22,14 @@ layout: default
     {% endif %}
   {% endfor %}
 
+
+  <h2> Reading </h2>
+  {% for post in site.posts %}
+    {% if post.category == "Reading" %}
+      <ul>
+        <li> <a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a> </li>
+      </ul>
+    {% endif %}
+  {% endfor %}
+
 </div>
