@@ -18,6 +18,7 @@ title: 2015年3月reading-List
 * 免费：商业的未来
 * 腾讯方法：一个市值1500亿美元公司的产品真经
 * 走进搜索引擎
+* an introduction to multivariate statistical analysis
 
 
 
