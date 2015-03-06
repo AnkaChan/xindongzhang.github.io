@@ -28,3 +28,7 @@ title: WebPy 0.3 常见错误
 * 检查MySQL中的item，也就是数据库的库名
 * db = web.database(dbn='mysql', db='your-MySQL-item-name', user='root', pw='your-MySQL-password')，就能链接上数据库
 
+### 默认端口0.0.0.0:8080无法访问
+* 原因：端口被占用
+* 解决：制定其他端口，如在cmd中运行python yourPythonfiles.py
+
