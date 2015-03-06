@@ -17,8 +17,14 @@ title: WebPy 0.3 常见错误
 
 ```
 
-### 链接数据库出错（具体细节略）
+### 链接数据库出错（XMAPP）（具体细节略）
 
 * 注意在mysql创建对应的数据库，并且创建数据库中对应的table
 
+
+### 链接数据库出错 （MySQL+webpy）
+
+* 注意检查自己是否安装MySQL
+* 检查MySQL中的item，也就是数据库的库名
+* db = web.database(dbn='mysql', db='your-MySQL-item-name', user='root', pw='your-MySQL-password')，就能链接上数据库
 
