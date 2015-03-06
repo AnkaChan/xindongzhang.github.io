@@ -18,6 +18,14 @@ permalink: /about/
 * 图像处理
 * 机器学习
 
+### 下载
+* CJSON：[Link](https://github.com/xindongzhang/CJSON)
+* VisualMicrophone(SIGGRAPH2014): [Link](https://github.com/xindongzhang/ViusalMicro)
+* FastICA for image denoising: [Link](https://github.com/xindongzhang/FastICA-for-Image-Denoise)
+* FastICA for image separation: [Link](https://github.com/xindongzhang/FastICA-for-Image-Separation)
+* Statistical Learning (LiHang): [Link](https://github.com/xindongzhang/Statistical-Learning-Lihang)
+* Kinect Camera: [Link](https://github.com/xindongzhang/KinectRGB)
+
 ### 科研技能
 * C/C++
 * MATLAB
