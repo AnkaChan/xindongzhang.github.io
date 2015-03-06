@@ -10,8 +10,9 @@ title: 2015年3月reading-List
 * Dive into Python
 * Introduction of Algorithm
 * C程序设计语言
+* machine learning in action
 
-### IT/Startup
+### IT/Startup/else
 
 * Lean Startup
 * 沸腾15年
