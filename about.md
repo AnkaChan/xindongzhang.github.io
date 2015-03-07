@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 ### 个人陈述
-本人毕业于厦门大学数学科学学院信息与计算科学系，现在大连理工大学数学科学学院计算数学系就读硕士研究生，导师为苏志勋教授([个人主页](http://cggi.dlut.edu.cn/?page_id=221))。研究生所学方向为计算机视觉、图像处理、机器学习，喜欢实现具体问题，热爱编程。
+本人毕业于厦门大学数学科学学院信息与计算科学系，现于大连理工大学数学科学学院计算数学系就读硕士研究生，导师为苏志勋教授([个人主页](http://cggi.dlut.edu.cn/?page_id=221))。研究生所学方向为计算机视觉、图像处理、机器学习，喜欢实现具体问题，热爱编程。
 
 ### 教育经历
 
@@ -19,9 +19,9 @@ permalink: /about/
 * 机器学习
 
 ### 助教课程主页
-* (2015年春季)计算机图形学（本）：[Link](https//54dreams.com/CG)
+* (2015年春季)计算机图形学（本）：[Link](http://54dreams.com/CG)
 
-### 资料下载
+### 下载
 * CJSON：[Link](https://github.com/xindongzhang/CJSON)
 * VisualMicrophone(SIGGRAPH2014): [Link](https://github.com/xindongzhang/ViusalMicro)
 * FastICA for image denoising: [Link](https://github.com/xindongzhang/FastICA-for-Image-Denoise)
