@@ -32,3 +32,7 @@ title: WebPy 0.3 常见错误
 * 原因：端口被占用
 * 解决：制定其他端口，如在cmd中运行python yourPythonfiles.py
 
+### MySQL创建TABLE失败
+* 原因：不合法的syntax
+* 解决：查看版本对应争取的syntax，将MySQL的bin目录下的mysql.exe的路径配到环境目录下，然后命令行进行创建。 $ mysql -uroot -pyourpassword yourMySQL < yourtables.sql
+
