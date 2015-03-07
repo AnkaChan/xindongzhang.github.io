@@ -18,7 +18,10 @@ permalink: /about/
 * 图像处理
 * 机器学习
 
-### 下载
+### 助教课程主页
+* (2015年春季)计算机图形学（本）[Link](https//54dreams.com/CG)
+
+### 资料下载
 * CJSON：[Link](https://github.com/xindongzhang/CJSON)
 * VisualMicrophone(SIGGRAPH2014): [Link](https://github.com/xindongzhang/ViusalMicro)
 * FastICA for image denoising: [Link](https://github.com/xindongzhang/FastICA-for-Image-Denoise)
