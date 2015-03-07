@@ -35,12 +35,12 @@ layout: default
       <a href="{{ '/index.html' | prepend: site.baseurl }}">{{ page }}</a>
     {% else %}
       <a href="{{ site.paginate_path | prepend: site.baseurl  | replace: '//', '/' }}">{{ page }}</a>
+      {{ site.paginate_path | prepend: site.baseurl  | replace: '//', '/' }}
     {% endif %}
   {% endfor %}
 
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next &raquo;</a>
-    {{ paginator.next_page_path }}
   {% else %}
     <span>Next &raquo;</span>
   {% endif %}
