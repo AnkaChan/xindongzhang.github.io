@@ -53,6 +53,7 @@ layout: default
       </div>
     </div>
   </div>
+
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
@@ -74,6 +75,50 @@ layout: default
       </div>
     </div>
   </div>
-</div>
 
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseThree">
+          Computer Vision
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+      {% for post in site.posts %}
+        {% if post.category == "CV" %}
+          <ul>
+            <li> <a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a> </li>
+          </ul>
+        {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseThree">
+          其他
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+      {% for post in site.posts %}
+        {% if post.category == "else" %}
+          <ul>
+            <li> <a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a> </li>
+          </ul>
+        {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+
+</div>
 </body>
