@@ -4,19 +4,6 @@ layout: default
 
 <div class="posts">
 
-  {% for post in paginator.posts %}
-    <article class="post">    
-      
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.content | truncatewords:40}}
-      </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">阅读更多</a>
-    </article>
-  {% endfor %}
-
   {% if paginator.total_pages > 1 %}
   <!-- 分页代码 -->
       {% for post in paginator.posts %}
@@ -31,9 +18,11 @@ layout: default
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">阅读更多</a>
         </article>
       {% endfor %}
+
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"上一页</a>
+      {% endif %}
   {% endif %}
 
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"上一页</a>
-  {% endif %}
+
 </div>
