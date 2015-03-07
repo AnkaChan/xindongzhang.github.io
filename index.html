@@ -34,8 +34,7 @@ layout: default
     {% elsif page == 1 %}
       <a href="{{ '/index.html' | prepend: site.baseurl }}">{{ page }}</a>
     {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl  | replace: '//', '/' }}">{{ page }}</a>
-      {{ site.paginate_path }}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
   {% endfor %}
 
