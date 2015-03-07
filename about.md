@@ -9,7 +9,7 @@ permalink: /about/
 
 ### 教育经历
 
-* 高中： 海南中学(2007 - 2010) 。。。。。。
+* 高中： 海南中学(2007 - 2010) 
 * 本科： 厦门大学(2010 - 2014) 计算数学专业
 * 硕士： 大连理工(2014 - 至今) 计算数学专业
 
@@ -19,7 +19,7 @@ permalink: /about/
 * 机器学习
 
 ### 助教课程主页
-* (2015年春季)计算机图形学（本）[Link](https//54dreams.com/CG)
+* (2015年春季)计算机图形学（本）：[Link](https//54dreams.com/CG)
 
 ### 资料下载
 * CJSON：[Link](https://github.com/xindongzhang/CJSON)
