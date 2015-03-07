@@ -1,28 +1,31 @@
 ---
 layout: default
 ---
-
+<!-->
 <div class="posts">
-
-  {% if paginator.total_pages > 1 %}
-  <!-- 分页代码 -->
-      {% for post in paginator.posts %}
-        <article class="post">    
+  {% for post in site.posts %}
+    <article class="post">    
       
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-        <div class="entry">
-          {{ post.content | truncatewords:40}}
-        </div>
+      <div class="entry">
+        {{ post.content | truncatewords:40}}
+      </div>
       
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">阅读更多</a>
-        </article>
-      {% endfor %}
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">阅读更多</a>
+    </article>
+  {% endfor %}
+</div>
+<!-->
 
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"上一页</a>
-      {% endif %}
-  {% endif %}
-
-
+<div>
+{% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="active">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+{% endfor %}
 </div>
