@@ -9,10 +9,12 @@ title: WebPy 0.3 常见错误
 * 解决方法，修改Python安装目录下Lib\site-packages\web\net.py文件的第32到第35行为如下内容：
 
 ```
+
     try:
         socket.inet_pton(socket.AF_INET6, address)
     except:
         return False
+        
 ```
 
 ### 链接数据库出错（XMAPP）（具体细节略）
