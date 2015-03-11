@@ -9,6 +9,28 @@ layout: default
 </head>
 <body>
 
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseFive">
+          其他
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse">
+      <div class="panel-body">
+      {% for post in site.posts %}
+        {% if post.category == "else" %}
+          <ul>
+            <li> <a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a> </li>
+          </ul>
+        {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+
 <div class="panel-group" id="accordion">
   <div class="panel panel-default">
     <div class="panel-heading">
@@ -98,27 +120,6 @@ layout: default
     </div>
   </div>
 
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" 
-          href="#collapseFive">
-          其他
-        </a>
-      </h4>
-    </div>
-    <div id="collapseFive" class="panel-collapse collapse">
-      <div class="panel-body">
-      {% for post in site.posts %}
-        {% if post.category == "else" %}
-          <ul>
-            <li> <a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a> </li>
-          </ul>
-        {% endif %}
-      {% endfor %}
-      </div>
-    </div>
-  </div>
 
 </div>
 </body>
