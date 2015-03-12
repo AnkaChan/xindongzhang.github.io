@@ -31,6 +31,7 @@ permalink: /about/
 
 ### 科研技能
 * C/C++
+* JAVA
 * MATLAB
 * OpenCV & OpenGL
 * CUDA
