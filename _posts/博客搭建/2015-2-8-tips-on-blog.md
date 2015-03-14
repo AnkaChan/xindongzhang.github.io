@@ -23,3 +23,7 @@ Github中的静态博客的书写需要用到md文件，md命令是一种markdow
 * 字体斜体：一对_套起来
 * 字体背景高亮：一对```套起来
 
+### kramdown 的一些写法
+
+* 链接: [Link](http://kramdown.gettalong.org/quickref.html)
+
