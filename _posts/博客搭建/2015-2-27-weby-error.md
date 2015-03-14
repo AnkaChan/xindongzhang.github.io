@@ -36,3 +36,7 @@ title: WebPy 0.3 常见错误
 * 原因：不合法的syntax
 * 解决：查看版本对应争取的syntax，将MySQL的bin目录下的mysql.exe的路径配到环境目录下，然后命令行进行创建。 $ mysql -uroot -pyourpassword yourMySQL < yourtables.sql
 
+### web.py 不允许使用80端口
+前面找了很多原因，也用grep去看了80端口的占用，的确是有线程在监听他，最好不好kill，实际上是你的权限不够，所以不能使用80端口
+*解决: sudo python index.py
+
