@@ -60,6 +60,7 @@ math: true
 #markdown: redcarpet
 markdown: kramdown
 highlighter: pygments
+pygments: false
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
