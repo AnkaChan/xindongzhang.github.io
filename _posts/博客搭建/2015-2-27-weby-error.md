@@ -30,7 +30,7 @@ title: WebPy 0.3 常见错误
 
 ### 默认端口0.0.0.0:8080无法访问
 * 原因：端口被占用
-* 解决：制定其他端口，如在cmd中运行python yourPythonfiles.py
+* 解决：制定其他端口，如在cmd中运行python yourPythonfiles.py other-port, 如python yourPythonfiles.py 9696
 
 ### MySQL创建TABLE失败
 * 原因：不合法的syntax
