@@ -9,6 +9,7 @@ title: 2015年4月reading-List
 * Head first Android Development
 * Head first Java
 * Numerical Optimization
+* ARM嵌入式：Linux系统开发详解
 
 ### IT/Startup/else
 
