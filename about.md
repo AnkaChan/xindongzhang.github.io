@@ -35,7 +35,7 @@ permalink: /about/
 * MATLAB
 * OpenCV & OpenGL
 * CUDA
-* HTML/CSS/JS/PHP
+* <--HTML/CSS/JS/PHP--!>
 * Ruby & Python
 * VBA
 
