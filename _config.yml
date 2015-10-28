@@ -23,10 +23,10 @@ disqus_shortname: "xindongzhanggithubio"
 
 
 
-#url: "http://54dreams.com"
-#imgrepo: "http://54dreams.com/static/img"
-url: "http://127.0.0.1:4000"
-imgrepo: "http://127.0.0.1:4000/static/img"
+url: "http://54dreams.com"
+imgrepo: "http://54dreams.com/static/img"
+#url: "http://127.0.0.1:4000"
+#imgrepo: "http://127.0.0.1:4000/static/img"
 
 gems:
   - jekyll-paginate
